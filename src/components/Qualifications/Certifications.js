@@ -19,7 +19,7 @@ const Certifications = () => {
                   src={microsoft}
                   alt="microsoftimg"
                 />
-                <span className="fw-bold400">{loop.name}</span>
+                <span className="fw-bold400 noWrap">{loop.name}</span>
                 <span className="listText">{loop.content}</span>
               </div>
             </Fragment>
