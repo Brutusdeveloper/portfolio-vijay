@@ -21,6 +21,7 @@
     display: flex;
     gap: 12px;
     a {
+      margin: 15px 0;
       border: 0;
       color: inherit;
       cursor: pointer;
@@ -61,7 +62,46 @@
       }
     }
   }
-  @media (max-width:678px) {
+  @media (max-width: 480px) {
+    .routingElement {
+      a {
+        margin: 16px 0;
+        margin-top: 16px;
+        margin-right: 0px;
+        margin-bottom: 16px;
+        margin-left: 0px;
+        height: 17px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px 20px;
+      }
+      .contact {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border: 0;
+        outline: 0;
+        padding: 12px;
+        width: auto;
+        background: transparent;
+        &:hover {
+          background: #fff;
+          outline: 0;
+        }
+        span {
+          transition: 0;
+        }
+        &:hover {
+          span {
+            margin-left: 0;
+            transform: translateX(0px);
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 678px) {
     padding: 0;
     width: 100%;
   }
@@ -237,6 +277,8 @@
       text-align: justify;
       font-weight: 300;
       font-size: 14px;
+      padding-right: 1.5rem;
+      line-height: 1.5rem;
     }
   }
 }

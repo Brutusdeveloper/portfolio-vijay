@@ -29,6 +29,10 @@ const Experience = () => {
                 altText={"logo"}
                 imgclassName={loop.style}
               >
+                <div className="experienceHeader">
+                  <h4>{loop.name}</h4>
+                  <span>{loop.role}</span>
+                </div>
                 <div>
                   {loop.list.map((innerloop, innerIndex) => {
                     return (

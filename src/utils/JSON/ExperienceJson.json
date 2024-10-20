@@ -1,6 +1,7 @@
 [
     {
-        "name": "Tata Consultncy Services",
+        "name": "Tata Consultancy Services",
+        "role":"System Engineer",
         "img": "assets/images/tcs.png",
         "alt": "tcs",
         "style":"tcsImg",
@@ -15,6 +16,7 @@
       {
         "name": "Zionext Technologies Private Limited",
         "img": "assets/images/zionext.jpg",
+        "role":"Software Engineer II",
         "alt": "zionext",
         "year": "Sep 2021 - Jul 2022",
         "style":"zioNextImg",
@@ -28,6 +30,7 @@
       {
         "name": "Driving Mobility Innovations",
         "img": "assets/images/DMI.jpg",
+        "role":"Associate Software Developer",
         "alt": "dmi",
         "year": "Dec 2019 - May 2021",
         "style":"dmiImg",

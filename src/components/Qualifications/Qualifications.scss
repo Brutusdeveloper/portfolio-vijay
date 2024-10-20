@@ -108,6 +108,17 @@
 }
 // EXPERIENCE WRAPPER
 .experienceWrapper {
+  .experienceHeader{
+    h4{
+      margin: 8px 0;
+    }
+    span{
+      font-size: 14px;
+      margin: 0;
+      font-weight: 300;
+    }
+    margin-bottom: 14px;
+  }
   .tcsImg {
     width: 30px;
     height: 22px;

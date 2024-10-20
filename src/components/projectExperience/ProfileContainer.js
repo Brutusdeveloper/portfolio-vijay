@@ -29,7 +29,7 @@ const ProfileContainer = () => {
               Resume
             </a>
             <a
-              className="contact  duration-300  transition-all"
+              className="contact"
               onClick={() => scrollToSection("contact")}
             >
               Contact
