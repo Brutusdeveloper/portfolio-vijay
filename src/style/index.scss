@@ -8,7 +8,9 @@ body {
 .pointerCursor {
   cursor: pointer;
 }
-
+.width-5{
+  width: 8%;
+}
 .subHeading {
   font-size: 14px;
   font-weight: 300;
@@ -63,7 +65,21 @@ img {
   }
 }
 //////////////////////////////////////////
-
+@media (max-width:756px){
+  .width-5{
+    width: 12%;
+  }
+}
+@media (max-width:580px){
+  .width-5{
+    width: 18%;
+  }
+}
+@media (max-width:365px){
+  .width-5{
+    width: 25%;
+  }
+}
 .wrapperContainer {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
