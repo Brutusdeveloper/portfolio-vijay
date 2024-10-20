@@ -3,8 +3,18 @@ import "./Qualifications.scss";
 import ExperienceJson from "../../utils/JSON/ExperienceJson.json";
 import HeadingWithImage from "../../utils/HeadingWithImage";
 import TimeLineWrapper from "../../utils/TimelineWrapper";
-import ExperienceHeadingImg from "../../assets/svg/experience.svg"
+import ExperienceHeadingImg from "../../assets/svg/experience.svg";
+import TCS from "../../assets/images/tcs.png";
+import Zionext from "../../assets/images/zionext.jpg";
+import Dmi from "../../assets/images/DMI.jpg";
+
+
 const Experience = () => {
+  const CompanyLogo =[
+    TCS,
+    Zionext,
+    Dmi,
+  ] 
   return (
     <Fragment>
       <div className="educationWrapper experienceWrapper">
@@ -15,7 +25,7 @@ const Experience = () => {
               <TimeLineWrapper
                 key={index}
                 year={loop.year}
-                img={loop.img}
+                img={CompanyLogo[index]}
                 altText={"vijay"}
                 imgclassName={loop.style}
               >
