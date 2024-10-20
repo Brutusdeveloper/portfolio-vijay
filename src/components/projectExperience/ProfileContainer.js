@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import "./projectExperience.scss";
 import { scrollToSection } from "../../utils/utils";
 import ProfileImage from "../../assets/images/vijay_photo.jpg";
+import Resume from "../../assets/pdf/Vijayresume.pdf";
 const ProfileContainer = () => {
   return (
     <Fragment>
@@ -25,7 +26,7 @@ const ProfileContainer = () => {
             <a id="projects" onClick={() => scrollToSection("projects")}>
               Projects
             </a>
-            <a href="/assets/pdf/Vijayresume.pdf" download="Vijayresume.pdf">
+            <a href={Resume} download="Vijayresume.pdf">
               Resume
             </a>
             <a
