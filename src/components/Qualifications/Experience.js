@@ -7,7 +7,7 @@ import ExperienceHeadingImg from "../../assets/svg/experience.svg";
 import TCS from "../../assets/images/tcs.png";
 import Zionext from "../../assets/images/zionext.jpg";
 import Dmi from "../../assets/images/DMI.jpg";
-
+import successIcon from "../../assets/svg/success.png"
 
 const Experience = () => {
   const CompanyLogo =[
@@ -26,7 +26,7 @@ const Experience = () => {
                 key={index}
                 year={loop.year}
                 img={CompanyLogo[index]}
-                altText={"vijay"}
+                altText={"logo"}
                 imgclassName={loop.style}
               >
                 <div>
@@ -34,9 +34,9 @@ const Experience = () => {
                     return (
                       <div
                         key={innerIndex}
-                        className="listdescription d-flex gap-4 listdescription"
+                        className="listdescription d-flex gap-4 item-center  listdescription"
                       >
-                        <img src="assets/svg/successIcon.svg" />
+                        <img src={successIcon} />
                         <span>{innerloop}</span>
                       </div>
                     );
