@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-vijay/static/css/main.afe38613.css",
+    "main.css": "/portfolio-vijay/static/css/main.c8cf3057.css",
     "main.js": "/portfolio-vijay/static/js/main.2ac5b28a.js",
     "static/js/453.cf609f18.chunk.js": "/portfolio-vijay/static/js/453.cf609f18.chunk.js",
     "static/media/KSRCT.png": "/portfolio-vijay/static/media/KSRCT.00549cea3e04b1b24555.png",
@@ -40,12 +40,12 @@
     "index.html": "/portfolio-vijay/index.html",
     "static/media/azure.svg": "/portfolio-vijay/static/media/azure.a8cc5b9530de2a2eea6adb4b78fafa7c.svg",
     "static/media/microsoft.svg": "/portfolio-vijay/static/media/microsoft.c10ce0677146f99ec3cc3b7454e76674.svg",
-    "main.afe38613.css.map": "/portfolio-vijay/static/css/main.afe38613.css.map",
+    "main.c8cf3057.css.map": "/portfolio-vijay/static/css/main.c8cf3057.css.map",
     "main.2ac5b28a.js.map": "/portfolio-vijay/static/js/main.2ac5b28a.js.map",
     "453.cf609f18.chunk.js.map": "/portfolio-vijay/static/js/453.cf609f18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe38613.css",
+    "static/css/main.c8cf3057.css",
     "static/js/main.2ac5b28a.js"
   ]
 }
