@@ -3,7 +3,7 @@ import CertificationsJson from "../../utils/JSON/Certification.json";
 import HeadingWithImage from "../../utils/HeadingWithImage";
 import "./Qualifications.scss";
 import { unique } from "../../utils/JSON/UniqueId";
-
+import microsoft from "../../assets/svg/microsoft.svg"
 const Certifications = () => {
   return (
     <Fragment>
@@ -15,7 +15,7 @@ const Certifications = () => {
               <div key={index} className="d-flex item-center gap-4 my-2 ml-5">
                 <img
                   className="listing"
-                  src="assets/images/microsoft.png"
+                  src={microsoft}
                   alt="microsoftimg"
                 />
                 <span className="fw-bold400">{loop.name}</span>

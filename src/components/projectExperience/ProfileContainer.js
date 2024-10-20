@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "./projectExperience.scss";
 import { scrollToSection } from "../../utils/utils";
-
+import ProfileImage from "../../assets/images/vijay_photo.jpg";
 const ProfileContainer = () => {
   return (
     <Fragment>
@@ -43,7 +43,7 @@ const ProfileContainer = () => {
         <div>
           <img
             className="profileimage"
-            src="/assets/images/vijay_photo.jpg"
+            src={ProfileImage}
             alt="profilePhoto"
           />
         </div>

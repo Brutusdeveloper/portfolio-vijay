@@ -1,14 +1,33 @@
 import React, { Fragment } from "react";
 import "./Qualifications.scss";
 import HeadingWithImage from "../../utils/HeadingWithImage";
-import EducationJson from "../../utils/JSON/Education.json";
 import TimeLineWrapper from "../../utils/TimelineWrapper";
+import CollegeImage from "../../assets/images/KSRCT.png"
+import Adhiyaman from "../../assets/images/adhyaman.png"
 const Education = () => {
+
+  const EducationCertification = [
+    {
+      "name": "K.S.Rangasamy College of Technology",
+      "img": CollegeImage,
+      "alt": "collegeImage",
+      "degree": "Bachelor of Mechanical Engineering",
+      "year": "2014 - 2018"
+    },
+    {
+      "name": "Adhiyaman Matric Hr.Sec.School",
+      "img": Adhiyaman,
+      "alt": "SchoolImg",
+      "degree": "Higher Secondary",
+      "year": "2012 - 2014"
+    }
+  ]
+
   return (
     <Fragment>
       <div className="educationWrapper">
         <HeadingWithImage img={"education"} heading={"Education"} />
-        {EducationJson.map((loop, index) => {
+        {EducationCertification.map((loop, index) => {
           return (
             <TimeLineWrapper
               key={index}

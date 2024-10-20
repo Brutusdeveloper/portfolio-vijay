@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import "../Container.scss";
+import LinkedIn from "../../assets/svg/linkedin.svg";
+import Mail from "../../assets/svg/mail.svg"
 const Contact = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" }); // Smooth scrolling to the top
@@ -20,14 +22,14 @@ const Contact = () => {
       </p>
       <div className="socialConnect">
         <div>
-          <a className="buttonHref" href="https://www.linkedin.com/in/vijayakumar-m-44b888205/">
-            <img src="assets/svg/linkedin.svg" />
+          <a className="buttonHref" href={'https://www.linkedin.com/in/vijayakumar-m-44b888205'}>
+            <img src={LinkedIn}/>
             <span>Follow on LinkedIn</span>
           </a>
         </div>
         <div>
           <a className="buttonHref" href="mailto:vijaybrutus@gmail.com">
-            <img src="assets/svg/mail.svg" />
+            <img src={Mail} />
             <span>vijaybrutus@gmail.com</span>
           </a>
         </div>
