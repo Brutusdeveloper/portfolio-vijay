@@ -1,0 +1,27 @@
+[
+    {
+        "title": "U.S. Bank",
+        "content":"Collaborated with UX/UI designers to create intuitive, accessible interfaces while optimizing front-end performance through Redux, lazy loading, and code splitting. Ensured seamless API integration for real-time data, conducted thorough accessibility compliance, and enhanced user experience. Developed robust unit tests using Jest and React Testing Library. Actively participated in Agile ceremonies, working closely with cross-functional teams to drive development and address roadblocks",
+        "usedSkills": ["HTML", "SASS", "Accessibility", "Jest", "React Js", "Redux", "javascript"]
+    },
+    {
+        "title": "Pencil Learn",
+        "content":"Developed a comprehensive library of reusable UI components, accelerating development and ensuring design consistency across the application. Worked closely with designers to create visually appealing, user-centric interfaces that enhance interaction and satisfaction. Optimized state management with Redux for smooth transitions and efficient data handling. Improved performance through memoization and asynchronous loading, boosting responsiveness. Collaborated with product management and QA teams to refine features, gather feedback, and ensure successful project delivery.",
+        "usedSkills": ["HTML", "SASS", "Jest", "React Js", "javascript", "TypeScript", "Redux", "MaterialUI"]
+    },
+    {
+        "title": "Ecom Daily News",
+        "content":"Developed modular and reusable UI components using React JS, ensuring maintainability and easy integration across the application. Integrated third-party news APIs and worked with Express for seamless back-end integration, delivering real-time data to users. Focused on improving user experience through responsive design for accessibility across devices. Utilized SASS and Bootstrap for styling, creating visually appealing and structured layouts. Collaborated on back-end services and conducted thorough testing and debugging to ensure functionality, stability, and responsiveness throughout the application.",
+        "usedSkills": ["React JS", "HTML", "SASS", "NodeJs", "Bootstrap"]
+    },
+    {
+        "title": "General Motors",
+        "content":"Developed a Python-based web scraping program to automate image downloads for model training. Integrated AWS Amplify for secure user authentication and access control, and managed image storage using AWS S3 for scalable and reliable data handling. Built a React JS front end to provide a seamless user interface for uploading and downloading images. Automated the image collection process with Python web scraping, streamlining data acquisition. Monitored application performance and optimized scraping logic for efficient resource usage and minimal downtime.",
+        "usedSkills": ["Python", "AWS", "React JS", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+        "title": "California Dental Association ",
+        "content":"Involved in report development using Cognos and dashboard creation in Power BI. Key responsibilities included designing and developing reports with Cognos and Guidewire Mapping to support data analysis. Created interactive Power BI dashboards to visualize key performance indicators and business insights. Leveraged Cognos for generating complex reports, providing in-depth analytical capabilities, and validating data accuracy with SQL queries. Utilized SQL Server for database management and querying to ensure accurate data handling.",
+        "usedSkills": ["Guidewire Mapping", "Power BI", "Cognos", "SQL Server"]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Tata Consultncy Services",
+        "img": "assets/images/tcs.png",
+        "alt": "tcs",
+        "style":"tcsImg",
+        "year": "Jul 2022 - Present",
+        "list": [
+          "Developed and maintained scalable web applications using React and Redux.",
+          "Implemented RESTful APIs to ensure seamless integration with back-end services.",
+          "Collaborated with cross-functional teams in Agile sprints to deliver high-quality software solutions.",
+          "Conducted code reviews and provided mentorship to junior developers."
+        ]
+      },
+      {
+        "name": "Zionext Technologies Private Limited",
+        "img": "assets/images/zionext.jpg",
+        "alt": "zionext",
+        "year": "Sep 2021 - Jul 2022",
+        "style":"zioNextImg",
+        "list": [
+          "Designed and implemented responsive user interfaces for web applications",
+          "Enhanced application performance through optimization techniques, including lazy loading and code splitting.",
+          "Collaborated with QA teams to develop and execute comprehensive testing plans",
+          "Lead knowledge-sharing sessions to improve team capabilities and project outcomes"
+        ]
+      },
+      {
+        "name": "Driving Mobility Innovations",
+        "img": "assets/images/DMI.jpg",
+        "alt": "dmi",
+        "year": "Dec 2019 - May 2021",
+        "style":"dmiImg",
+        "list": [
+          "Assisted in the development of a token management system using React JS.",
+          "Implemented unit tests to ensure code quality and functionality.",
+          "Participated in daily stand-ups and sprint planning to discuss project progress and roadblocks.",
+          "Documented technical specifications and user guides for the application."
+        ]
+      }
+]

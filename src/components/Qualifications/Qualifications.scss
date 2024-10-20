@@ -1,0 +1,119 @@
+.QualificationWrapper {
+  margin: 10px;
+  display: flex;
+
+  .timeline {
+    position: relative;
+    margin: 16px auto;
+  }
+
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #ccc;
+  }
+  .instituteDetails {
+    .institudeHeading {
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 18px;
+      margin-top: 10px;
+    }
+    h3 {
+      margin: 3px 0;
+    }
+  }
+  .timeline-item {
+    padding-left: 28px;
+    position: relative;
+  }
+
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  .timeline-item:hover::before {
+    background-color: #867f7f; /* Change to your preferred hover color */
+    border-color: #000000;
+  }
+  .listdescription {
+    margin: 8px;
+    img {
+      width: 15px;
+      height: 15px;
+    }
+    span {
+      font-weight: 300;
+      font-size: 14px;
+    }
+  }
+}
+.year-range {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 8px 0;
+}
+@media (max-width: 1056px) {
+  .QualificationWrapper {
+    display: block;
+  }
+}
+.educationWrapper {
+  padding: 20px;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .educationWrapper {
+    padding: 0;
+    width: 100%;
+  }
+}
+// CERTIFICATION WRAPPER
+
+.CertificationWrapper {
+  padding: 10px 20px;
+  padding-bottom: 0;
+  .listText {
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .listing {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+// EXPERIENCE WRAPPER
+.experienceWrapper {
+  .tcsImg {
+    width: 30px;
+    height: 22px;
+  }
+  .dmiImg {
+    width: 35px;
+    height: 32px;
+  }
+  .zioNextImg {
+    width: 35px;
+    height: 30px;
+  }
+  @media (min-width: 1056px) {
+    .scrollExperience {
+      width: 100%;
+      height: 60vh;
+      overflow-y: scroll;
+    }
+  }
+}

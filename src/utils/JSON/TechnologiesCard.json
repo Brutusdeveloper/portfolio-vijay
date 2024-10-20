@@ -1,0 +1,68 @@
+[
+  {
+    "name": "HTML",
+    "icon": "assets/svg/html.svg",
+    "id": 1
+  },
+  {
+    "name": "CSS",
+    "icon": "assets/svg/css.svg",
+    "id": 2
+  },
+  {
+    "name": "Javascript",
+    "icon": "assets/svg/js.svg",
+    "id": 3
+  },
+  {
+    "name": "TypeScript",
+    "icon": "assets/svg/typescript.svg",
+    "id": 4
+  },
+  {
+    "name": "SASS",
+    "icon": "assets/svg/sass.svg",
+    "id": 5
+  },
+  {
+    "name": "React JS",
+    "icon": "assets/svg/react.svg",
+    "id": 6
+  },
+  {
+    "name": "Next JS",
+    "icon": "assets/svg/nextJs.svg",
+    "id": 7
+  },  {
+    "name": "Webpack",
+    "icon": "assets/svg/webpack.svg",
+    "id": 8
+  },  {
+    "name": "Node Js",
+    "icon": "assets/svg/node.svg",
+    "id": 9
+  },  {
+    "name": "Jest",
+    "icon": "assets/svg/jest.svg",
+    "id": 10
+  } , {
+    "name": "Material UI",
+    "icon": "assets/svg/materialUI.svg",
+    "id": 11
+  },  {
+    "name": "Ant Design",
+    "icon": "assets/svg/antDesign.svg",
+    "id": 12
+  },
+  {
+    "name": "GitLab",
+    "icon": "assets/svg/gitlab.svg",
+    "id": 13
+  },
+  {
+    "name": "Azure",
+    "icon": "assets/svg/azure.svg",
+    "id": 14
+  }
+
+]

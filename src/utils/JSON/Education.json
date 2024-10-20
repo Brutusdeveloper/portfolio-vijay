@@ -1,0 +1,16 @@
+[
+  {
+    "name": "K.S.Rangasamy College of Technology",
+    "img": "assets/images/KSRCT.png",
+    "alt": "collegeImage",
+    "degree": "Bachelor of Mechanical Engineering",
+    "year": "2014 - 2018"
+  },
+  {
+    "name": "Adhiyaman Matric Hr.Sec.School",
+    "img": "assets/images/adhyaman.png",
+    "alt": "SchoolImg",
+    "degree": "Higher Secondary",
+    "year": "2012 - 2014"
+  }
+]

@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useState, createContext, useContext } from "react";
+import "./style/index.scss";
+import ProfileContainer from "./components/projectExperience/ProfileContainer";
+import Contact from "./components/projectExperience/Contact";
+import TechnologiesUsed from "./components/TechnologiesCard";
+import EducationAndExperience from "./components/Qualifications/QualificationsIndex";
+import Projects from "./components/projectExperience/ProjectExperience";
 
-function App() {
+const ThemeContext = createContext();
+export const useTheme = () => {
+  return useContext(ThemeContext);
+};
+
+const App = () => {
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeContext.Provider value={{ isDarkMode }}>
+      <div className="wrapperContainer">
+        <div className={`dark ${isDarkMode ? "light" : ""}`}>
+          <span
+            className="material-icons pointerCursor"
+            onClick={() => setIsDarkMode(!isDarkMode)}
+          >
+            brightness_1
+          </span>
+          <ProfileContainer />
+          <Projects />
+          <EducationAndExperience />
+          <TechnologiesUsed />
+          <Contact />
+        </div>
+      </div>
+    </ThemeContext.Provider>
   );
-}
-
+};
 export default App;
