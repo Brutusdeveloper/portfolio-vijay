@@ -63,6 +63,7 @@
   }
   @media (max-width:678px) {
     padding: 0;
+    width: 100%;
   }
 }
 .socialConnect {
@@ -123,19 +124,37 @@
     gap: 5px;
     align-items: center;
     justify-content: space-between;
-    transform: scale(1);
     cursor: default;
-    transition: 0.15s all ease;
     border: 1.5px solid #d79898;
-    &:hover {
-      transform: scale(
-        1.02
-      ); /* you need a scale here to allow it to transition in both directions */
-    }
   }
   img {
     width: 28px;
     height: 28px;
+  }
+  @media (min-width: 678px) {
+    .grid-item {
+      background-color: #fac3c3;
+      padding: 16px;
+      border-radius: 10px;
+      backdrop-filter: saturate(180%) blur(10px);
+      font-size: 14px;
+      text-align: center;
+      color: #840000;
+      justify-content: space-between;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      justify-content: space-between;
+      transform: scale(1);
+      cursor: default;
+      transition: 0.15s all ease;
+      border: 1.5px solid #d79898;
+      &:hover {
+        transform: scale(
+          1.02
+        ); /* you need a scale here to allow it to transition in both directions */
+      }
+    }
   }
   @media (max-width: 756px) {
     .grid-container {
