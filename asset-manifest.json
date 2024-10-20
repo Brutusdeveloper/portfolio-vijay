@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-vijay/static/css/main.a8c35d47.css",
-    "main.js": "/portfolio-vijay/static/js/main.9dbd4324.js",
+    "main.js": "/portfolio-vijay/static/js/main.4bc3a99b.js",
     "static/js/453.cf609f18.chunk.js": "/portfolio-vijay/static/js/453.cf609f18.chunk.js",
     "static/media/KSRCT.png": "/portfolio-vijay/static/media/KSRCT.00549cea3e04b1b24555.png",
     "static/media/vijay_photo.jpg": "/portfolio-vijay/static/media/vijay_photo.401480581a8c3405ac5c.jpg",
@@ -16,6 +16,7 @@
     "static/media/material-icons-sharp.woff2": "/portfolio-vijay/static/media/material-icons-sharp.219aa9140e099e6c72ed.woff2",
     "static/media/material-icons.woff2": "/portfolio-vijay/static/media/material-icons.0c35d18bf06992036b69.woff2",
     "static/media/tcs.png": "/portfolio-vijay/static/media/tcs.3b11b059975ab0ec786c.png",
+    "static/media/Vijayresume.pdf": "/portfolio-vijay/static/media/Vijayresume.d0d0fe9bb47b09372218.pdf",
     "static/media/adhyaman.png": "/portfolio-vijay/static/media/adhyaman.2b42faf2b8f97de56f45.png",
     "static/media/success.png": "/portfolio-vijay/static/media/success.130e95ae6cdee87bfce8.png",
     "static/media/education.svg": "/portfolio-vijay/static/media/education.7fc030e79b5fd543f12edec0ac7ee64c.svg",
@@ -40,11 +41,11 @@
     "static/media/azure.svg": "/portfolio-vijay/static/media/azure.a8cc5b9530de2a2eea6adb4b78fafa7c.svg",
     "static/media/microsoft.svg": "/portfolio-vijay/static/media/microsoft.c10ce0677146f99ec3cc3b7454e76674.svg",
     "main.a8c35d47.css.map": "/portfolio-vijay/static/css/main.a8c35d47.css.map",
-    "main.9dbd4324.js.map": "/portfolio-vijay/static/js/main.9dbd4324.js.map",
+    "main.4bc3a99b.js.map": "/portfolio-vijay/static/js/main.4bc3a99b.js.map",
     "453.cf609f18.chunk.js.map": "/portfolio-vijay/static/js/453.cf609f18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8c35d47.css",
-    "static/js/main.9dbd4324.js"
+    "static/js/main.4bc3a99b.js"
   ]
 }
