@@ -26,6 +26,11 @@
     h3 {
       margin: 3px 0;
     }
+    @media (max-width: 678px) {
+      h3 {
+        font-size: 16px;
+      }
+    }
   }
   .timeline-item {
     padding-left: 28px;
@@ -78,6 +83,7 @@
   .educationWrapper {
     padding: 10px 0;
     width: 100%;
+    margin: 20px 0;
   }
 }
 @media (max-width: 480px) {
@@ -108,11 +114,11 @@
 }
 // EXPERIENCE WRAPPER
 .experienceWrapper {
-  .experienceHeader{
-    h4{
+  .experienceHeader {
+    h4 {
       margin: 8px 0;
     }
-    span{
+    span {
       font-size: 14px;
       margin: 0;
       font-weight: 300;
