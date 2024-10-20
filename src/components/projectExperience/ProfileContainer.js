@@ -29,10 +29,7 @@ const ProfileContainer = () => {
             <a href={Resume} download="Vijayresume.pdf">
               Resume
             </a>
-            <a
-              className="contact"
-              onClick={() => scrollToSection("contact")}
-            >
+            <a className="contact" onClick={() => scrollToSection("contact")}>
               Contact
               <span className="material-icons pointerCursor">
                 chevron_right
@@ -42,11 +39,7 @@ const ProfileContainer = () => {
         </div>
 
         <div>
-          <img
-            className="profileimage"
-            src={ProfileImage}
-            alt="profilePhoto"
-          />
+          <img className="profileimage" src={ProfileImage} alt="profilePhoto" />
         </div>
       </div>
     </Fragment>

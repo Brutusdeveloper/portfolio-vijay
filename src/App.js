@@ -18,12 +18,16 @@ const App = () => {
     <ThemeContext.Provider value={{ isDarkMode }}>
       <div className="wrapperContainer">
         <div className={`dark ${isDarkMode ? "light" : ""}`}>
+          <div className="d-flex gap-2 item-center mode pointerCursor"  onClick={() => setIsDarkMode(!isDarkMode)}>
           <span
             className="material-icons pointerCursor"
-            onClick={() => setIsDarkMode(!isDarkMode)}
+           
           >
             brightness_1
           </span>
+          <span className="themeText">Mode</span>
+          </div>
+    
           <ProfileContainer />
           <Projects />
           <EducationAndExperience />
