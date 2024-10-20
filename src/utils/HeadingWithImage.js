@@ -5,7 +5,7 @@ const HeadingWithImage = ({img, heading}) => {
   return (
     <Fragment>
       <div className="d-flex item-center gap-4" key={unique()}>
-        <img src={`assets/svg/${img}.svg`} />
+        <img src={img} alt="HeadingImage"/>
         <h2>{heading}</h2>
       </div>
     </Fragment>

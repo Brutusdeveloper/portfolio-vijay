@@ -2,8 +2,10 @@ import React, { Fragment } from "react";
 import "./Qualifications.scss";
 import HeadingWithImage from "../../utils/HeadingWithImage";
 import TimeLineWrapper from "../../utils/TimelineWrapper";
-import CollegeImage from "../../assets/images/KSRCT.png"
-import Adhiyaman from "../../assets/images/adhyaman.png"
+import CollegeImage from "../../assets/images/KSRCT.png";
+import Adhiyaman from "../../assets/images/adhyaman.png";
+import EducationHeadingImage from "../../assets/svg/education.svg"
+
 const Education = () => {
 
   const EducationCertification = [
@@ -26,7 +28,7 @@ const Education = () => {
   return (
     <Fragment>
       <div className="educationWrapper">
-        <HeadingWithImage img={"education"} heading={"Education"} />
+        <HeadingWithImage img={EducationHeadingImage} heading={"Education"} />
         {EducationCertification.map((loop, index) => {
           return (
             <TimeLineWrapper

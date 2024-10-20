@@ -3,12 +3,13 @@ import CertificationsJson from "../../utils/JSON/Certification.json";
 import HeadingWithImage from "../../utils/HeadingWithImage";
 import "./Qualifications.scss";
 import { unique } from "../../utils/JSON/UniqueId";
-import microsoft from "../../assets/svg/microsoft.svg"
+import microsoft from "../../assets/svg/microsoft.svg";
+import CertificateHeadingImage from "../../assets/svg/certificate.svg"
 const Certifications = () => {
   return (
     <Fragment>
       <div className="CertificationWrapper" key={unique()}>
-        <HeadingWithImage img={"certificate"} heading={"Certification"}/>
+        <HeadingWithImage img={CertificateHeadingImage} heading={"Certification"}/>
         {CertificationsJson.map((loop, index) => {
           return (
             <Fragment>

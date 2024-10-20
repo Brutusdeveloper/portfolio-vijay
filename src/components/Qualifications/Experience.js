@@ -3,12 +3,12 @@ import "./Qualifications.scss";
 import ExperienceJson from "../../utils/JSON/ExperienceJson.json";
 import HeadingWithImage from "../../utils/HeadingWithImage";
 import TimeLineWrapper from "../../utils/TimelineWrapper";
-
+import ExperienceHeadingImg from "../../assets/svg/experience.svg"
 const Experience = () => {
   return (
     <Fragment>
       <div className="educationWrapper experienceWrapper">
-        <HeadingWithImage img={"experience"} heading={"Experience"} />
+        <HeadingWithImage img={ExperienceHeadingImg} heading={"Experience"} />
         <div className="scrollExperience">
           {ExperienceJson.map((loop, index) => {
             return (
