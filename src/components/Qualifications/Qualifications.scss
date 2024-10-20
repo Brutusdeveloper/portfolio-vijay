@@ -74,6 +74,12 @@
   padding: 20px;
   width: 100%;
 }
+@media (max-width: 678px) {
+  .educationWrapper {
+    padding: 10px 0;
+    width: 100%;
+  }
+}
 @media (max-width: 480px) {
   .educationWrapper {
     padding: 0;
@@ -95,6 +101,11 @@
   }
 }
 
+@media (max-width: 678px) {
+  .CertificationWrapper {
+    padding: 10px 0;
+  }
+}
 // EXPERIENCE WRAPPER
 .experienceWrapper {
   .tcsImg {
