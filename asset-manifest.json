@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-vijay/static/css/main.364735ef.css",
-    "main.js": "/portfolio-vijay/static/js/main.ad8703cd.js",
+    "main.js": "/portfolio-vijay/static/js/main.d204d261.js",
     "static/js/453.cf609f18.chunk.js": "/portfolio-vijay/static/js/453.cf609f18.chunk.js",
     "static/media/KSRCT.png": "/portfolio-vijay/static/media/KSRCT.00549cea3e04b1b24555.png",
     "static/media/vijay_photo.jpg": "/portfolio-vijay/static/media/vijay_photo.401480581a8c3405ac5c.jpg",
@@ -41,11 +41,11 @@
     "static/media/azure.svg": "/portfolio-vijay/static/media/azure.a8cc5b9530de2a2eea6adb4b78fafa7c.svg",
     "static/media/microsoft.svg": "/portfolio-vijay/static/media/microsoft.c10ce0677146f99ec3cc3b7454e76674.svg",
     "main.364735ef.css.map": "/portfolio-vijay/static/css/main.364735ef.css.map",
-    "main.ad8703cd.js.map": "/portfolio-vijay/static/js/main.ad8703cd.js.map",
+    "main.d204d261.js.map": "/portfolio-vijay/static/js/main.d204d261.js.map",
     "453.cf609f18.chunk.js.map": "/portfolio-vijay/static/js/453.cf609f18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.364735ef.css",
-    "static/js/main.ad8703cd.js"
+    "static/js/main.d204d261.js"
   ]
 }
